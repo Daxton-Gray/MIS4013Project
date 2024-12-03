@@ -26,7 +26,7 @@
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="page1.php">Page 1</a>
+                <a class="nav-link" href="categories.php">Product Categories</a>
               </li>
               
               <li class="nav-item">
