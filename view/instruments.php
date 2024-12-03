@@ -3,8 +3,8 @@
   <table class="table">
     <thead>
       <tr>
-        <th>Item ID</th>
-        <th>Item Name</th>
+        <th>Instrument ID</th>
+        <th>Instrument Name</th>
         <th>Model</th>
         <th>Brand</th>
         <th>Category</th>
