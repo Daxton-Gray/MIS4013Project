@@ -7,7 +7,7 @@ include "view/header.php";
 
 
 
-$inventories = selectInventories();
+$instruments = selectInstruments();
 include "view/instruments-with-inventories.php";
 include "view/footer.php";
 ?>
