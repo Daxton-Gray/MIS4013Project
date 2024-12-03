@@ -6,8 +6,8 @@
         <th>Item ID</th>
         <th>Item Name</th>
         <th>Model</th>
-        <th>Brand Name</th>
-        <th>Category Name</th>
+        <th>Brand</th>
+        <th>Category</th>
         <th>Price</th>
         <th></th>
       </tr>
