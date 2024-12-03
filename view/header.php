@@ -38,7 +38,7 @@
               </li> 
               
               <li class="nav-item">
-                <a class="nav-link" href="accessories.php">Accessories</a>
+                <a class="nav-link" href="inventories.php">Inventories</a>
               </li>
               
             </ul>
