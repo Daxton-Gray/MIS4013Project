@@ -26,7 +26,7 @@
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="categories.php">Product Categories</a>
+                <a class="nav-link" href="categories.php">Item Categories</a>
               </li>
               
               <li class="nav-item">
