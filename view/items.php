@@ -22,7 +22,7 @@ while ($item = $items->fetch_assoc()) {
          <td><?php echo $item['model']; ?></td>
          <td><?php echo $item['brand_name']; ?></td>
          <td><?php echo $item['category_name']; ?></td>
-         <td><?php echo $item['price']; ?></td>
+         <td>$<?php echo $item['price']; ?></td>
        </tr>
 <?php
 }
