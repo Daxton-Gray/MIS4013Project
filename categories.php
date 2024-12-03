@@ -2,11 +2,11 @@
 require_once("util-db.php");
 require_once("model/categories.php");
 
-$pageTitle = "Page 1";
+$pageTitle = "Categories";
 include "view/header.php";
 ?>
       
-      <h1>Page 1</h1>
+      <h1>Product Categories</h1>
       
 <?php
 $categories = selectCategories();
