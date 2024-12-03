@@ -1,4 +1,4 @@
-<h1>Items</h1>
+<h1>Instruments</h1>
 <div class="table-responsive">
   <table class="table">
     <thead>
@@ -9,6 +9,7 @@
         <th>Brand</th>
         <th>Category</th>
         <th>Price</th>
+        <th>Quantity Available</th>
         <th></th>
       </tr>
     </thead>
@@ -23,6 +24,7 @@ while ($item = $items->fetch_assoc()) {
          <td><?php echo $item['brand_name']; ?></td>
          <td><?php echo $item['category_name']; ?></td>
          <td>$<?php echo $item['price']; ?></td>
+         <td><?php echo $item['stock_quantity']; ?></td>
        </tr>
 <?php
 }
