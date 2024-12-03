@@ -1,4 +1,4 @@
-<h1>Item Categories</h1>
+<h1>Categories</h1>
 <div class="table-responsive">
   <table class="table">
     <thead>
