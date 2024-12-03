@@ -1,9 +1,9 @@
 <?php
-$pageTitle = "Page 2";
+$pageTitle = "Brands";
 include "view/header.php";
 ?>
       
-      <h1>Page 2</h1>
+      <h1>Brands</h1>
       
 <?php
 include "view/footer.php";
