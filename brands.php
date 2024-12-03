@@ -1,10 +1,13 @@
 <?php
+require_once("util-db.php");
+require_once("model/brands.php");
+
 $pageTitle = "Brands";
 include "view/header.php";
-?>
-      
-      <h1>Brands</h1>
-      
-<?php
+
+
+
+$brands = selectBrands();
+include "view/brands.php";
 include "view/footer.php";
 ?>
