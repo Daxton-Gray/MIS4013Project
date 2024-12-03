@@ -18,8 +18,8 @@
 while ($instrument = $instruments->fetch_assoc()) {
 ?>
        <tr>
-         <td><?php echo $instrument['item_id']; ?></td>
-         <td><?php echo $instrument['item_name']; ?></td>
+         <td><?php echo $instrument['instrument_id']; ?></td>
+         <td><?php echo $instrument['instrument_name']; ?></td>
          <td><?php echo $instrument['model']; ?></td>
          <td><?php echo $instrument['brand_name']; ?></td>
          <td><?php echo $instrument['category_name']; ?></td>
