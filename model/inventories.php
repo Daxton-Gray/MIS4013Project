@@ -1,10 +1,10 @@
 <?php
-  function selectAccessories() 
+  function selectInventories() 
   {
     try
       {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT * FROM accessory A JOIN Instrument I ON I.instrument_id=A.instrument_id ORDER BY instrument_name, accessory_name");
+        $stmt = $conn->prepare("SELECT * FROM inventory IV JOIN Instrument I ON I.instrument_id=IV.instrument_id ORDER BY instrument_name, model");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
