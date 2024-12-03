@@ -26,11 +26,11 @@
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="categories.php">Item Categories</a>
+                <a class="nav-link" href="categories.php">Categories</a>
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="page2.php">Page 2</a>
+                <a class="nav-link" href="brands.php">Brands</a>
               </li>
               
               <li class="nav-item">
