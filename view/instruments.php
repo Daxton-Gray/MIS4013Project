@@ -15,16 +15,16 @@
     </thead>
     <tbody>
 <?php
-while ($item = $items->fetch_assoc()) {
+while ($instrument = $instruments->fetch_assoc()) {
 ?>
        <tr>
-         <td><?php echo $item['item_id']; ?></td>
-         <td><?php echo $item['item_name']; ?></td>
-         <td><?php echo $item['model']; ?></td>
-         <td><?php echo $item['brand_name']; ?></td>
-         <td><?php echo $item['category_name']; ?></td>
-         <td>$<?php echo $item['price']; ?></td>
-         <td><?php echo $item['stock_quantity']; ?></td>
+         <td><?php echo $instrument['item_id']; ?></td>
+         <td><?php echo $instrument['item_name']; ?></td>
+         <td><?php echo $instrument['model']; ?></td>
+         <td><?php echo $instrument['brand_name']; ?></td>
+         <td><?php echo $instrument['category_name']; ?></td>
+         <td>$<?php echo $instrument['price']; ?></td>
+         <td><?php echo $instrument['stock_quantity']; ?></td>
        </tr>
 <?php
 }
