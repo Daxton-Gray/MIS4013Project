@@ -40,6 +40,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="inventories.php">Inventory</a>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="instruments-with-inventories.php">Instruments with Inventory</a>
+              </li>
               
             </ul>
           </div>
