@@ -45,7 +45,14 @@ include "view/editform/brands.php";
              </button>
            </form>           
          </td>
-       
+         <td>
+
+          <form method="post" action="instruments-with-inventories-by-category.php">
+            <input type="hidden" name="bid" value="<?php echo $brand['brand_id']; ?>">
+            <button type="submit" class="btn btn-primary">Inventory</button>
+          </form>
+           
+         </td>       
        </tr>
 <?php
 }
