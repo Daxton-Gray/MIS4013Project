@@ -17,6 +17,7 @@ include "view/newform/instruments.php";
         <th>Category</th>
         <th></th>
         <th></th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
@@ -44,6 +45,7 @@ include "view/editform/instruments.php";
              </button>
            </form>           
          </td>
+         <td><a href="inventories-by-instrument.php?id=<?php echo $instrument['instrument_id']; ?>">Inventory</a></td>
        </tr>
 <?php
 }
