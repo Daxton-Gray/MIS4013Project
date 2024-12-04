@@ -44,7 +44,7 @@ include "view/input-list/instruments.php";
             <label for="stock_quantity<? echo $inventory['inventory_id']; ?>" class="form-label">Quantity Available</label>
             <input type="number" class="form-control" id="stock_quantity<? echo $inventory['inventory_id']; ?>" name="stock_quantity" value="<? echo $inventory['stock_quantity']; ?>">
           </div>
-            <input type="hidden" name="inst_id" value="<? echo $inventory['inventory_id']; ?>">
+            <input type="hidden" name="inv_id" value="<? echo $inventory['inventory_id']; ?>">
             <input type="hidden" name="actionType" value="Edit">
           <button type="submit" class="btn btn-primary">Save</button>
         </form>
