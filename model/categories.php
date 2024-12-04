@@ -17,7 +17,7 @@
       }
   }
 
-function insertLeague($category_name, $description) 
+function insertCategory($category_name, $description) 
   {
     try
       {
@@ -35,7 +35,7 @@ function insertLeague($category_name, $description)
       }
   }
 
-function updateLeague($category_name, $description, $cid) 
+function updateCategory($category_name, $description, $cid) 
   {
     try
       {
