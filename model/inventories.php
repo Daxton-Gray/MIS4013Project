@@ -17,7 +17,7 @@
       }
   }
 
-  function selectBrandssForInput() 
+  function selectBrandsForInput() 
   {
     try
       {
