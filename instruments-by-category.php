@@ -1,6 +1,6 @@
 <?php
 require_once("util-db.php");
-require_once("model/instruments.php");
+require_once("model/instruments-by-category.php");
 
 $pageTitle = "Instruments by Category";
 include "view/header.php";
