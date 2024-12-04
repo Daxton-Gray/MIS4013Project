@@ -7,6 +7,7 @@
 include "view/newform/inventories.php";
 ?>
   </div>
+</div>
 <div class="card-group">
 <?php
 while ($instrument = $instruments->fetch_assoc()) {
