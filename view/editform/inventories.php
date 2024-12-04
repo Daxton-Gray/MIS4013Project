@@ -20,7 +20,7 @@
             <label for="bid<? echo $inventory['inventory_id']; ?>" class="form-label">Brand</label>
 <?php
 $brandList = selectBrandsForInput();
-$selectedBrand = $instrument['brand_id'];
+$selectedBrand = $inventory['brand_id'];
 include "view/input-list/brands.php";
 ?>
           </div>
