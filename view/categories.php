@@ -4,7 +4,7 @@
   </div>
   <div class="col-auto">
 <?php
-include "view/categories-newform.php";
+include "view/newform/categories.php";
 ?>
   </div>
 </div>
@@ -29,7 +29,7 @@ while ($category = $categories->fetch_assoc()) {
          <td><?php echo $category['description']; ?></td>
          <td>
 <?php
-include "view/categories-editform.php";
+include "view/editform/categories.php";
 ?>
          </td>
          <td>
