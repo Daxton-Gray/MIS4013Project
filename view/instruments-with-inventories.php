@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col">
-    <h1>Instruments with Inventory</h1>
+    <h1>Inventory by Instruments</h1>
   </div>
   <div class="col-auto">
 <?php
