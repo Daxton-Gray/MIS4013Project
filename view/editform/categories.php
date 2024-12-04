@@ -7,7 +7,7 @@
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="editCategoryModal<? echo $category['category_id']; ?>" tabindex="-1" aria-labelledby="editLeagueModalLabel<? echo $category['category_id']; ?>" aria-hidden="true">
+<div class="modal fade" id="editCategoryModal<? echo $category['category_id']; ?>" tabindex="-1" aria-labelledby="editCategoryModalLabel<? echo $category['category_id']; ?>" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
