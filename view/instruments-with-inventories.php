@@ -1,4 +1,5 @@
 <h1>Instruments with Inventories</h1>
+<div class="scroll-container">
 <div class="card-group">
 <?php
 while ($instrument = $instruments->fetch_assoc()) {
@@ -25,4 +26,5 @@ while ($instrument = $instruments->fetch_assoc()) {
 <?php
 }
 ?>
+</div>
 </div>
