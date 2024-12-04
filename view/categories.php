@@ -33,7 +33,6 @@ include "view/editform/categories.php";
 ?>
          </td>
          <td>
-           <td>
            <form method="post" action="">
              <input type="hidden" name="cid" value="<?php echo $category['category_id']; ?>">
              <input type="hidden" name="actionType" value="Delete">
@@ -44,7 +43,6 @@ include "view/editform/categories.php";
               </svg>
              </button>
            </form>
-         </td>
          </td>
        </tr>
 <?php
