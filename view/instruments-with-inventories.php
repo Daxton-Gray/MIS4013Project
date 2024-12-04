@@ -1,11 +1,11 @@
 <h1>Instruments with Inventories</h1>
-<div class="scroll-container">
+
 <div class="card-group">
 <?php
 while ($instrument = $instruments->fetch_assoc()) {
 ?>
   <div class="card"">
-    <div class="card-body" style="width: 50px;">
+    <div class="card-body">
       <h5 class="card-title"><?php echo $instrument['instrument_name']; ?></h5>
       <p class="card-text">
       <ul class="list-group">
@@ -26,5 +26,4 @@ while ($instrument = $instruments->fetch_assoc()) {
 <?php
 }
 ?>
-</div>
 </div>
