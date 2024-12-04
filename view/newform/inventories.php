@@ -38,7 +38,7 @@ include "view/input-list/instruments.php";
           </div>
           <div class="mb-3">
             <label for="price" class="form-label">Price</label>
-            <input type="number" class="form-control" id="price" name="price">
+            <input type="number" class="form-control" id="price" name="price" step="0.01" required>
           </div>
           <div class="mb-3">
             <label for="stock_quantity" class="form-label">Quantity Available</label>
