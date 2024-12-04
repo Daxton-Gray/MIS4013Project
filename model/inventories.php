@@ -4,7 +4,7 @@
     try
       {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT * FROM inventory IV JOIN Instrument I ON I.instrument_id=IV.instrument_id ORDER BY instrument_name, model");
+        $stmt = $conn->prepare("SELECT * FROM inventory IV JOIN Instrument I ON I.instrument_id=IV.instrument_id JOIN brand B ON B.brand_id=IV.brand_id ORDER BY instrument_name, brand_name, model");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
