@@ -4,7 +4,7 @@
 <?php
 while ($instrument = $instruments->fetch_assoc()) {
 ?>
-  <div class="card" style="width: 100px;">
+  <div class="card" style="width: 10px;">
     <div class="card-body">
       <h5 class="card-title"><?php echo $instrument['instrument_name']; ?></h5>
       <p class="card-text">
