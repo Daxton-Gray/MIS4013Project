@@ -8,8 +8,11 @@
 
     <style>
       .scroll-container {
+        width: 50px;
         overflow-x: auto;
         whitespace: nowrap;
+        border: 1px solid #ccc;
+        padding: 10px;
       }
     </style>
   </head>
