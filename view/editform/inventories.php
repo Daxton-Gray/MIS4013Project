@@ -34,15 +34,15 @@ include "view/input-list/instruments.php";
           </div>
           <div class="mb-3">
             <label for="model<? echo $inventory['inventory_id']; ?>" class="form-label">Model</label>
-            <input type="text" class="form-control" id="model<? echo $inventory['inventory_id']; ?>" name="model" value="<? echo $inventory['instrument_name']; ?>">
+            <input type="text" class="form-control" id="model<? echo $inventory['inventory_id']; ?>" name="model" value="<? echo $inventory['model']; ?>">
           </div>
           <div class="mb-3">
             <label for="price<? echo $inventory['inventory_id']; ?>" class="form-label">Price</label>
-            <input type="number" class="form-control" id="price<? echo $inventory['inventory_id']; ?>" name="price" value="<? echo $inventory['instrument_name']; ?>">
+            <input type="number" class="form-control" id="price<? echo $inventory['inventory_id']; ?>" name="price" value="<? echo $inventory['price']; ?>">
           </div>
           <div class="mb-3">
             <label for="stock_quantity<? echo $inventory['inventory_id']; ?>" class="form-label">Quantity Available</label>
-            <input type="number" class="form-control" id="stock_quantity<? echo $inventory['inventory_id']; ?>" name="stock_quantity" value="<? echo $inventory['instrument_name']; ?>">
+            <input type="number" class="form-control" id="stock_quantity<? echo $inventory['inventory_id']; ?>" name="stock_quantity" value="<? echo $inventory['stock_quantity']; ?>">
           </div>
             <input type="hidden" name="inst_id" value="<? echo $inventory['inventory_id']; ?>">
             <input type="hidden" name="actionType" value="Edit">
