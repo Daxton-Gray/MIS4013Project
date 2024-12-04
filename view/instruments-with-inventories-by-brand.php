@@ -23,7 +23,7 @@ while ($instrument = $instruments->fetch_assoc()) {
 ?>
       </ul>
       </p>
-      
+      <p class="card-text"><small class="text-body-secondary">$inventory['brand_name']</small></p>
     </div>
   </div>
 <?php
