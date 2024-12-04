@@ -25,7 +25,7 @@ include "view/input-list/categories.php";
 ?>
           </div>
           <div class="mb-3">
-            <label for="instrument_name<? echo $instrument['instrument_id']; ?>" class="form-label">First Name</label>
+            <label for="instrument_name<? echo $instrument['instrument_id']; ?>" class="form-label">Instrument Name</label>
             <input type="text" class="form-control" id="instrument_name<? echo $instrument['instrument_id']; ?>" name="instrument_name" value="<? echo $instrument['instrument_name']; ?>">
           </div>
             <input type="hidden" name="inst_id" value="<? echo $instrument['instrument_id']; ?>">
