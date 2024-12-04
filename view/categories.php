@@ -17,6 +17,7 @@ include "view/newform/categories.php";
         <th>Description</th>
         <th></th>
         <th></th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
@@ -44,6 +45,14 @@ include "view/editform/categories.php";
              </button>
            </form>
          </td>
+         <td>
+
+          <form method="post" action="instruments-by-category.php">
+            <input type="hidden" name="cid" value="<?php echo $category['category_id']; ?>">
+            <button type="submit" class="btn btn-primary">Instruments</button>
+          </form>
+           
+         </td>         
        </tr>
 <?php
 }
