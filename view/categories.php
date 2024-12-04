@@ -17,6 +17,12 @@ while ($category = $categories->fetch_assoc()) {
          <td><?php echo $category['category_id']; ?></td>
          <td><?php echo $category['category_name']; ?></td>
          <td><?php echo $category['description']; ?></td>
+         <td>
+           <form method="post" action="instruments-by-category.php">
+             <input type="hidden" name="cid" value="<?php echo $category['instrument_id']; ?>">
+             <button type="submit" class="btn btn-secondary">Instruments</button>
+           </form>
+         </td>
        </tr>
 <?php
 }
