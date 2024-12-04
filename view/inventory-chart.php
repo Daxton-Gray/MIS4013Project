@@ -1,4 +1,4 @@
-<h1>Inventory per Instrument</h1>
+<h1>Instruments Available</h1>
 
 <div>
   <canvas id="myChart"></canvas>
