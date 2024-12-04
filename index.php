@@ -3,7 +3,7 @@ $pageTitle = "Home";
 include "view/header.php";
 ?>
       
-      <h1>Norman Music</h1>
+      <h1>DG Music Supply</h1>
       
 <?php
 include "view/footer.php";
