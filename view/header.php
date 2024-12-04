@@ -45,6 +45,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="instruments-with-inventories.php">Instruments with Inventory</a>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="inventory-chart.php">Inventory Chart</a>
+              </li>
               
             </ul>
           </div>
