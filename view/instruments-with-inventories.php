@@ -24,7 +24,7 @@ while ($instrument = $instruments->fetch_assoc()) {
       <br/><?php echo $inventory['model']; ?>
       <br/>$<?php echo $inventory['price']; ?>
       <br/><?php echo $inventory['stock_quantity']; ?> Available
-      <div class="d-flex gap-2 mt-2">
+<!--       <div class="d-flex gap-2 mt-2">
         <?php include "view/editform/inventories.php"; ?>
         <form method="post" action="">
              <input type="hidden" name="inv_id" value="<?php echo $inventory['inventory_id']; ?>">
@@ -36,7 +36,7 @@ while ($instrument = $instruments->fetch_assoc()) {
               </svg>
              </button>
           </form>
-      </div>
+      </div> -->
     </li>
 <?php
   }
