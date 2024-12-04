@@ -8,7 +8,7 @@
 
     <style>
       .scroll-container {
-        width: 50px;
+        width: 100%;
         overflow-x: auto;
         whitespace: nowrap;
         border: 1px solid #000;
