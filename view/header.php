@@ -11,7 +11,7 @@
         width: 50px;
         overflow-x: auto;
         whitespace: nowrap;
-        border: 1px solid #ccc;
+        border: 1px solid #000;
         padding: 10px;
       }
     </style>
