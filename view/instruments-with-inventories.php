@@ -12,7 +12,7 @@ while ($instrument = $instruments->fetch_assoc()) {
   $inventories = selectInventoriesByInstruments($instrument['instrument_id']);
   while ($inventory = $inventories->fetch_assoc()) {
 ?>
-    <li class="list-group-item"><?php echo $inventory['brand_name']; ?> <?php echo $inventory['instrument name']; ?> - <?php echo $inventory['model']; ?> - $<?php echo $inventory['price']; ?> - <?php echo $inventory['stock_quantity']; ?> Units</li>
+    <li class="list-group-item"><?php echo $inventory['brand_name']; ?> <?php echo $inventory['instrument_name']; ?> - <?php echo $inventory['model']; ?> - $<?php echo $inventory['price']; ?> - <?php echo $inventory['stock_quantity']; ?> Units</li>
 <?php
   }
 ?>
