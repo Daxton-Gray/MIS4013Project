@@ -1,8 +1,8 @@
 <?php
-function selectLocations() {
+function selectInventories() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT state, COUNT(team_id) AS num_teams FROM location L JOIN team T ON L.location_id=T.location_id GROUP BY state");
+        $stmt = $conn->prepare("SELECT COUNT(IV.instrument_id) AS num_instruments, instrument_name, brand_name FROM instrument I JOIN Inventory IV ON I.instrument_id=IV.instrument_id JOIN brand B ON B.brand_id=IV.brand_id GROUP BY instrument_name, brand_name");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
