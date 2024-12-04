@@ -78,7 +78,7 @@ function insertInventory($brand_id, $instrument_id, $model, $price, $stock_quant
       {
         $conn = get_db_connection();
         $stmt = $conn->prepare("INSERT INTO `project_schema`.`inventory` (`inventory_id`, `brand_id`, `instrument_id`, `model`, `price`, `stock_quantity`) VALUES (NULL, ?, ?, ?, ?, ?)");
-        $stmt->bind_param("iisfi", $brand_id, $instrument_id, $model, $price, $stock_quantity);
+        $stmt->bind_param("iisdi", $brand_id, $instrument_id, $model, $price, $stock_quantity);
         $success = $stmt->execute();
         $conn->close();
         return $success;
@@ -96,7 +96,7 @@ function updateInventory($brand_id, $instrument_id, $model, $price, $stock_quant
       {
         $conn = get_db_connection();
         $stmt = $conn->prepare("UPDATE `project_schema`.`inventory` SET `brand_id` = ?, `instrument_id` = ?, `model` = ?, `price` = ?, `stock_quantity` = ? WHERE `inventory_id` = ?");
-        $stmt->bind_param("iisfii", $brand_id, $instrument_id, $model, $price, $stock_quantity, $inv_id);
+        $stmt->bind_param("iisdii", $brand_id, $instrument_id, $model, $price, $stock_quantity, $inv_id);
         $success = $stmt->execute();
         $conn->close();
         return $success;
