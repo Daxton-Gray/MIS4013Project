@@ -18,7 +18,7 @@
   </head>
   
   <body>
-    <div class="container rounded">
+    <div class="container">
       <nav class="navbar navbar-expand-lg rounded" style="opacity:0.8">
         <div class="container-fluid">
           
