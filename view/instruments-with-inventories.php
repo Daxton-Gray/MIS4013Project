@@ -21,7 +21,7 @@ while ($instrument = $instruments->fetch_assoc()) {
               data-bs-target="#collapse<?php echo $instrument['instrument_id']; ?>" 
               aria-expanded="false" 
               aria-controls="collapse<?php echo $instrument['instrument_id']; ?>">
-        <span class="card-title"><?php echo htmlspecialchars($instrument['instrument_name']); ?></span>
+        <span class="card-title"><?php echo $instrument['instrument_name']; ?></span>
       </button>
     </h2>
     <div id="collapse<?php echo $instrument['instrument_id']; ?>" 
@@ -39,15 +39,15 @@ while ($instrument = $instruments->fetch_assoc()) {
                 <div class="card-body">
                   <ul class="list-group">
                     <li class="list-group-item">
-                      <?php echo htmlspecialchars($inventory['brand_name']); ?> 
-                      <?php echo htmlspecialchars($inventory['instrument_name']); ?>
-                      <br/><?php echo htmlspecialchars($inventory['model']); ?>
-                      <br/>$<?php echo htmlspecialchars($inventory['price']); ?>
-                      <br/><?php echo htmlspecialchars($inventory['stock_quantity']); ?> Available
+                      <?php echo $inventory['brand_name']; ?> 
+                      <?php echo $inventory['instrument_name']; ?>
+                      <br/><?php echo $inventory['model']; ?>
+                      <br/>$<?php echo $inventory['price']; ?>
+                      <br/><?php echo $inventory['stock_quantity']; ?> Available
                       <div class="d-flex gap-2 mt-2">
                         <?php include "view/editform/inventories.php"; ?>
                         <form method="post" action="">
-                             <input type="hidden" name="inv_id" value="<?php echo htmlspecialchars($inventory['inventory_id']); ?>">
+                             <input type="hidden" name="inv_id" value="<?php echo $inventory['inventory_id']; ?>">
                              <input type="hidden" name="actionType" value="Delete">
                              <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure?');">
                               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
