@@ -18,8 +18,8 @@
   </head>
   
   <body>
-    <div class="container" style="padding-top:2%;padding-bottom:2%">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" style="opacity:0.5;">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" style="opacity:0.5;padding-top:1%;padding-bottom:1%;">
         <div class="container-fluid">
           
           <a class="navbar-brand" href="#">Navbar</a>
