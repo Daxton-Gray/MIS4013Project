@@ -9,6 +9,9 @@
     <style>
       body {
         background-image: url('https://img.freepik.com/premium-photo/abstract-futuristic-background-wave-with-connecting-dots-lines-dark-background-wave-particles_105800-117.jpg?semt=ais_hybrid');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
       }
     </style>
 
