@@ -18,7 +18,7 @@
   </head>
   
   <body>
-    <div class="container" style="background:blue">
+    <div class="container bg-light-subtle rounded">
       <nav class="navbar navbar-expand-lg bg-light-subtle rounded">
         <div class="container-fluid">
           
