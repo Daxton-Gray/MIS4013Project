@@ -1,3 +1,15 @@
+<div class="row">
+  <div class="col">
+    <h1>Inventory by Instruments</h1>
+  </div>
+  <div class="col-auto">
+<?php
+include "view/newform/inventories.php";
+?>
+  </div>
+</div>
+
+
 <div class="accordion" id="accordionExample">
 <?php
 while ($instrument = $instruments->fetch_assoc()) {
