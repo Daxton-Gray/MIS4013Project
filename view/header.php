@@ -43,7 +43,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="instruments-with-inventories.php">Instruments with Inventory</a>
+                <a class="nav-link" href="instruments-with-inventories.php">Instrument Inventories</a>
               </li>
 
               <li class="nav-item">
