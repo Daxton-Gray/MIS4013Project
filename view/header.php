@@ -20,7 +20,7 @@
   <body>
     <div class="container">
       <nav class="navbar navbar-expand-lg bg-light-subtle rounded">
-        <div class="container-fluid">
+        <div class="container-fluid" style="background:blue">
           
           <a class="navbar-brand" href="#">Navbar</a>
           
