@@ -18,7 +18,7 @@
   </head>
   
   <body>
-    <div class="container">
+    <div class="container" style="padding-top:2%;">
       <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" style="opacity:0.5;">
         <div class="container-fluid">
           
