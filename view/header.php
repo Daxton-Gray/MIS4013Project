@@ -19,7 +19,7 @@
   
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-transparent">
+      <nav class="navbar navbar-expand-lg" style="background-color: transparent;">
         <div class="container-fluid">
           
           <a class="navbar-brand" href="#">Navbar</a>
