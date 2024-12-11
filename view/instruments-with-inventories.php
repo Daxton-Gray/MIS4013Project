@@ -39,8 +39,8 @@ while ($instrument = $instruments->fetch_assoc()) {
                 <div class="card-body">
                   <ul class="list-group">
                     <li class="list-group-item">
-                      <?php echo $inventory['brand_name']; ?> 
-                      <?php echo $inventory['instrument_name']; ?>
+                      <strong><?php echo $inventory['brand_name']; ?></strong> 
+                      <strong><?php echo $inventory['instrument_name']; ?></strong>
                       <br/><?php echo $inventory['model']; ?>
                       <br/>$<?php echo $inventory['price']; ?>
                       <br/><?php echo $inventory['stock_quantity']; ?> Available
