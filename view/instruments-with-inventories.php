@@ -4,16 +4,16 @@ while ($instrument = $instruments->fetch_assoc()) {
 ?>  
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button" type="button" 
+      <button class="accordion-button collapsed" type="button" 
               data-bs-toggle="collapse" 
               data-bs-target="#collapse<?php echo $instrument['instrument_id']; ?>" 
-              aria-expanded="true" 
+              aria-expanded="false" 
               aria-controls="collapse<?php echo $instrument['instrument_id']; ?>">
         <span class="card-title"><?php echo htmlspecialchars($instrument['instrument_name']); ?></span>
       </button>
     </h2>
     <div id="collapse<?php echo $instrument['instrument_id']; ?>" 
-         class="accordion-collapse collapse show" 
+         class="accordion-collapse collapse" 
          data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <div class="row row-cols-1 row-cols-md-3 g-4">
