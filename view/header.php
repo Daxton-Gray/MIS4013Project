@@ -19,7 +19,7 @@
   
   <body>
     <div class="container rounded" style="background-color:gray">
-      <nav class="navbar navbar-expand-lg bg-light-subtle rounded">
+      <nav class="navbar navbar-expand-lg rounded" style="background-color:blue">
         <div class="container-fluid">
           
           <a class="navbar-brand" href="#">Navbar</a>
