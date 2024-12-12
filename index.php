@@ -3,7 +3,8 @@ $pageTitle = "Home";
 include "view/header.php";
 ?>
 
-function displayGreeting() {
+<script>
+  function displayGreeting() {
     const now = new Date();
     const hour = now.getHours();
     let greeting = "Hello!";
@@ -15,7 +16,9 @@ function displayGreeting() {
         greeting = "Good Evening!";
     }
     document.getElementById('greeting').innerText = greeting;
-}
+}  
+</script>
+
 
       
       <h1>DG Music Supply</h1>
