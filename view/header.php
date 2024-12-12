@@ -19,7 +19,7 @@
   
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" style="opacity:0.5;margin-top:1%;margin-bottom:1%;">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" style="opacity:0.6;margin-top:1%;margin-bottom:1%;">
         <div class="container-fluid">
           
           <a class="navbar-brand" href="#">Navbar</a>
