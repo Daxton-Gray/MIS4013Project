@@ -8,7 +8,7 @@ include "view/newform/categories.php";
 ?>
   </div>
 </div>
-<div class="table-responsive rounded">
+<div class="table-responsive rounded" style="opacity:0.5;">
   <table class="table">
     <thead>
       <tr>
