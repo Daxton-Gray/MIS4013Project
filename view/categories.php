@@ -9,7 +9,7 @@ include "view/newform/categories.php";
   </div>
 </div>
 <div class="table-responsive rounded">
-  <table class="table rounded">
+  <table class="table">
     <thead>
       <tr>
         <th>Category ID</th>
