@@ -24,7 +24,7 @@ include "view/newform/categories.php";
 <?php
 while ($category = $categories->fetch_assoc()) {
 ?>
-       <tr style="color:#91B6D4;">
+       <tr>
          <td><?php echo $category['category_id']; ?></td>
          <td><?php echo $category['category_name']; ?></td>
          <td><?php echo $category['description']; ?></td>
