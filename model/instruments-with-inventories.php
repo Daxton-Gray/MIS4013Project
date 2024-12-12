@@ -113,7 +113,7 @@ function deleteInventory($inv_id)
     try
       {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("DELETE FROM `project_schema`.`inventory` WHERE instrument_id = ?");
+        $stmt = $conn->prepare("DELETE FROM `project_schema`.`inventory` WHERE inventory_id = ?");
         $stmt->bind_param("i", $inv_id);
         $success = $stmt->execute();
         $conn->close();
