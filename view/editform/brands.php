@@ -7,7 +7,7 @@
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="editBrandModal<? echo $brand['brand_id']; ?>" tabindex="-1" aria-labelledby="editBrandModalLabel<? echo $brand['brand_id']; ?>" aria-hidden="true" style="z-index:1056;">
+<div class="modal fade" id="editBrandModal<? echo $brand['brand_id']; ?>" tabindex="-1" aria-labelledby="editBrandModalLabel<? echo $brand['brand_id']; ?>" aria-hidden="true" style="z-index:-1;">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
