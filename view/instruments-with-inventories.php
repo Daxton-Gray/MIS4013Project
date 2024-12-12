@@ -10,7 +10,7 @@ include "view/newform/inventories.php";
 </div>
 
 
-<div class="accordion" id="accordionExample">
+<div class="accordion rounded" id="accordionExample">
 <?php
 while ($instrument = $instruments->fetch_assoc()) {
 ?>  
