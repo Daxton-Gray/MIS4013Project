@@ -15,8 +15,7 @@
       }
 
     .table-responsive.rounded {
-      background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
-      border-radius: 8px; /* Optional rounded corners */
+      border-radius: 8px;
     }
     </style>
 
