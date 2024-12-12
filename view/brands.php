@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col">
-    <h1>Brands</h1>
+    <h1 style="color:#dbe4e4;">Brands</h1>
   </div>
   <div class="col-auto">
 <?php
@@ -8,8 +8,8 @@ include "view/newform/brands.php";
 ?>
   </div>
 </div>
-<div class="table-responsive">
-  <table class="table rounded">
+<div class="table-responsive rounded">
+  <table class="table">
     <thead>
       <tr>
         <th>Brand ID</th>
