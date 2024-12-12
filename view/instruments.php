@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col">
-    <h1>Instruments</h1>
+    <h1 style="color:#dbe4e4;">Instruments</h1>
   </div>
   <div class="col-auto">
 <?php
