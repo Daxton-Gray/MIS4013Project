@@ -1,5 +1,5 @@
 <h1>Instruments</h1>
-<div class="table-responsive rounded" style="opacity:0.6;">
+<div class="table-responsive rounded" style="opacity:0.7;">
   <table class="table">
     <thead>
       <tr>
