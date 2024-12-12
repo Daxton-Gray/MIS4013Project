@@ -1,4 +1,4 @@
-<h1>Inventory by Instrument</h1>
+<h1 style="color:#dbe4e4;">Inventory by Instrument</h1>
 <div class="table-responsive rounded">
   <table class="table">
     <thead>
