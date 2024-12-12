@@ -8,8 +8,8 @@ include "view/newform/brands.php";
 ?>
   </div>
 </div>
-<div class="table-responsive rounded">
-  <table class="table" style="background-color:#dbe4e4;">
+<div class="table-responsive">
+  <table class="table rounded">
     <thead>
       <tr>
         <th>Brand ID</th>
