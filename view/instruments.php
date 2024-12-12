@@ -8,7 +8,7 @@ include "view/newform/instruments.php";
 ?>
   </div>
 </div>
-<div class="table-responsive rounded" style="opacity:0.6;">
+<div class="table-responsive rounded" style="opacity:0.7;">
   <table class="table">
     <thead>
       <tr>
