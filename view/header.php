@@ -6,14 +6,14 @@
     <title><?=$pageTitle?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-<!--     <style>
+    <style>
       body {
         background-image: url('https://img.freepik.com/premium-photo/abstract-futuristic-background-wave-with-connecting-dots-lines-dark-background-wave-particles_105800-117.jpg?semt=ais_hybrid');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
       }
-    </style> -->
+    </style>
 
   </head>
   
