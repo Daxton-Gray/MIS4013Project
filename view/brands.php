@@ -44,7 +44,15 @@ include "view/editform/brands.php";
               </svg>
              </button>
            </form>           
-         </td>   
+         </td>
+         <td>
+
+          <form method="post" action="instruments-by-brand.php">
+            <input type="hidden" name="bid" value="<?php echo $brand['brand_id']; ?>">
+            <button type="submit" class="btn btn-primary">Instruments</button>
+          </form>
+           
+         </td>           
        </tr>
 <?php
 }
