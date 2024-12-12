@@ -17,7 +17,7 @@
       <div class="modal-body">
         <form method="post" action="">
           <div class="mb-3">
-            <label for="team_id<? echo $instrument['instrument_id']; ?>" class="form-label">Category</label>
+            <label for="cid<? echo $instrument['instrument_id']; ?>" class="form-label">Category</label>
 <?php
 $categoryList = selectCategoriesForInput();
 $selectedCategory = $instrument['category_id'];
