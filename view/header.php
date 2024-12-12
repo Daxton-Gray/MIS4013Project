@@ -13,10 +13,6 @@
         background-attachment: fixed;
         background-size: 100% 100%;
       }
-
-    .table-responsive.rounded {
-      border-radius: 8px;
-    }
     </style>
 
   </head>
