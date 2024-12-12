@@ -9,7 +9,7 @@ include "view/newform/brands.php";
   </div>
 </div>
 <div class="table-responsive rounded">
-  <table class="table" style="opacity:0.7;">
+  <table class="table">
     <thead>
       <tr>
         <th>Brand ID</th>
