@@ -8,7 +8,7 @@ include "view/newform/inventories.php";
 ?>
   </div>
 </div>
-<div class="table-responsive">
+<div class="table-responsive rounded" style="opacity:0.6;">
   <table class="table">
     <thead>
       <tr>
