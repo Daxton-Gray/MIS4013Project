@@ -21,7 +21,7 @@ include "view/header.php";
 
 
       
-      <h1 style="color:#dbe4e4;">DG Music Supply</h1>
+      <h1 style="color:#91B6D4;">DG Music Supply</h1>
 
       <p id="greeting" style="color:#e5e4e2;">Welcome!</p>
       <script>displayGreeting();</script>
