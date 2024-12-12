@@ -30,7 +30,7 @@ include "view/header.php";
 
       
       <button class="btn btn-primary" onclick="generateRandomQuote()">Why choose us?</button>
-      <p id="quote-display">Why Choose DG Music Supply?</p>
+      <p id="quote-display" style="color:#e5e4e2;><strong>Why Choose DG Music Supply?</strong></p>
 
       <script>
             function generateRandomQuote() {
