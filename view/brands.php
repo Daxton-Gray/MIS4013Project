@@ -8,7 +8,7 @@ include "view/newform/brands.php";
 ?>
   </div>
 </div>
-<div class="table-responsive" style="opacity:0.6;">
+<div class="table-responsive rounded">
   <table class="table">
     <thead>
       <tr>
