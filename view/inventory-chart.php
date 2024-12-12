@@ -1,4 +1,4 @@
-<h1 style="color:#dbe4e4;">Instruments Available</h1>
+<h1 style="color:#91B6D4;">Instruments Available</h1>
 
 <div>
   <canvas id="myChart"></canvas>
