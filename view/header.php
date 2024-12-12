@@ -13,14 +13,6 @@
         background-attachment: fixed;
         background-size: 100% 100%;
       }
-
-      .modal {
-        z-index: 1050;
-      }
-      .modal-backdrop {
-        z-index: 1040;
-      }
-
     </style>
 
   </head>
