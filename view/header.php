@@ -13,6 +13,11 @@
         background-attachment: fixed;
         background-size: 100% 100%;
       }
+
+    .table-responsive.rounded {
+      background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+      border-radius: 8px; /* Optional rounded corners */
+    }
     </style>
 
   </head>
